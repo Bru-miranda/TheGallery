@@ -1,0 +1,294 @@
+
+body{
+    font-family:  Arial, Helvetica, sans-serif;
+    color: #fff;
+    background: #1e2022;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+#header{
+    height: 100vh;
+    background-image: url(/img_2/IMG_0403.GIF);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 18rem;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    margin-left: 5rem;
+}
+
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    border-radius: 2px;
+    background-color: #fffeff;
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    color: #d4d4cf;
+}
+
+nav ul li a:hover::after{
+    width: 100%;
+}
+
+/* ABOUT */
+
+#aboutus{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img_2/IMG_0405.PNG);
+    background-size: cover;
+    background-position: inherit;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color: #fff;
+}
+
+#aboutus .container{
+    margin-top: 100px;
+}
+
+.sub-title{
+    margin-top: 50px;
+}
+
+.esmael{
+    text-decoration: none;
+    color: #fff;
+}
+
+.esmael:hover{
+    color: #a24929;
+}
+
+/* EXHIBITION */
+.img3{
+    width: 25rem;
+}
+
+/* social media */
+#socialmedia{
+    width: 100%;
+    height: 70vh;
+    background-image: url(/img_2/IMG_0406.PNG);
+    background-size: contain;
+    background-position: center;
+}
+
+#socialmedia img{
+    width: 150px;
+    margin-top: 18rem;
+    
+}
+
+.maps{
+    width: 150px;
+}
+
+.rodape{
+    margin-top: 1rem;
+}
+
+nav .fa-solid{
+    display: none;
+}
+
+@media  (max-width: 600px) {
+
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    nav ul{
+        background: #d4d4cf;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul li a{
+        color: #1e2022;
+    }
+
+    nav ul li a:hover{
+        color: #313438;
+    }
+
+    #socialmedia{
+        width: 100%;
+        height: 70vh;
+        background-image: url(/img_2/IMG_0406.PNG);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #socialmedia img{
+        width: 7rem;
+        margin-top: 20rem;
+        margin-left: 0.5rem;
+        
+    }
+
+
+}
+
+@media  (max-width: 900px) {
+
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    nav ul{
+        background: #d4d4cf;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul li a{
+        color: #1e2022;
+    }
+
+    nav ul li a:hover{
+        color: #313438;
+    }
+
+    #socialmedia{
+        width: 100%;
+        height: 70vh;
+        background-image: url(/img_2/IMG_0406.PNG);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #socialmedia img{
+        width: 7rem;
+        margin-top: 27rem;
+        
+    }
+
+
+}
+
+@media  (max-width: 1200px) {
+
+
+    nav .fa-solid{
+        display: block;
+        font-size: 25px;
+        margin-left: 20px;
+    }
+
+    nav ul{
+        background: #d4d4cf;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+
+    nav ul li a{
+        color: #1e2022;
+    }
+
+    nav ul li a:hover{
+        color: #313438;
+    }
+
+    #socialmedia{
+        width: 100%;
+        height: 70vh;
+        background-image: url(/img_2/IMG_0406.PNG);
+        background-size: cover;
+        background-position: center;
+    }
+    
+    #socialmedia img{
+        width: 10rem;
+        margin-top: 35rem;
+        
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
